@@ -4,7 +4,7 @@ services:
   database: 
     image: postgres: 13
     environment: 
-      - POSTGRES_DB=my_db
+      - POSTGRES_DB=testNestjs
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=Epre*2022*
     ports:
